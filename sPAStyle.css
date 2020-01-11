@@ -1,0 +1,43 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+html{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('resources/backgroundBlue.jpg');
+    height: 100%; 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kit{
+    height: 60vh;
+    width: 75%;
+    display: -webkit-inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kitItem{
+    width: 25%;
+    padding: 1%, 3%;
+    margin: 1%;
+    border: 1px solid #cccccc;
+    background-color: #cccccc73;
+    cursor: pointer;
+}
+
+.kitItem h2{
+    text-shadow: #000000 0px 1px 4px;
+}
+
+@keyframes kitItem-animation {
+    from{
+        background-color: #ffffff;
+    }
+    to{
+        background-color: #000000;
+    }
+};
